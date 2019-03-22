@@ -1,4 +1,4 @@
-# Project "Read My Lips":
+# Project:
 
 For Each Question, Parameters to be passed : 
 
