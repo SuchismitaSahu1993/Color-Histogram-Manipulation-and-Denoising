@@ -12,5 +12,5 @@ Like while reading cat.raw image, code reads[390][300][1].
 Same applies to all the questions. 
 
 So, for example, for Q1.(a) Parameters Passed will be
--> g++ bilinear.cpp -o main
--> main cat.raw bilinear_cat.raw
+* g++ bilinear.cpp -o main
+* main cat.raw bilinear_cat.raw
