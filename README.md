@@ -21,13 +21,13 @@ Image Denoising is the process of removing noise from image. It is an important 
 ## Usage Information:
 Use below syntax to run respective files:
 
-'g++ filename.cpp -o filename(main)'
-'./filename inputImageName outputImageName' 
+`g++ filename.cpp -o filename(main)`
+`./filename inputImageName outputImageName`
 
 Example:
 
-'g++ bilinear.cpp'
-'./bilinear cat.raw cat_bilinear_out.raw 1 390 300'
+`g++ bilinear.cpp
+./bilinear cat.raw cat_bilinear_out.raw 1 390 300`
 
 Thus, For Each Question, Parameters to be passed : 
 
