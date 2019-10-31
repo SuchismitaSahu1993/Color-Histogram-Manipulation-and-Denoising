@@ -13,19 +13,25 @@ Image Denoising is the process of removing noise from image. It is an important 
 2. Bilateral filter
 3. Non-local mean (NLM) filter 
 
-## Project:
+## Requirements:
+1. Ubuntu/Windows
+2. Vscode
+3. C++ (g++ compiler)
 
-For Each Question, Parameters to be passed : 
+## Usage Information:
+Use below syntax to run respective files:
+
+g++ filename.cpp -o filename(main)
+./filename inputImageName outputImageName 
+
+Example:
+
+g++ bilinear.cpp
+./bilinear cat.raw cat_bilinear_out.raw 1 390 300
+
+Thus, For Each Question, Parameters to be passed : 
 
 input_file_name output_file_name
 
-I have hard-coded the Program to handle particular Input Images. 
-For example, for Demosaicing using Bilinear Interpolation Question, Input image size  = 390 * 300 BW Image. 
-So, I have handled the size and format of the image in the main function. 
-Like while reading cat.raw image, code reads[390][300][1].
-
-Same applies to all the questions. 
-
-So, for example, for Q1.(a) Parameters Passed will be
-* g++ bilinear.cpp -o main
-* main cat.raw bilinear_cat.raw
+I have hard-coded the Program to handle BytesPerPixel Width Height of each Image. 
+For example, for Demosaicing using Bilinear Interpolation Question, Input image size  = 390 * 300 BW Image and Bytes per pixel is 1.
