@@ -1,3 +1,8 @@
+## Objective:
+Image demosaicing is an algorithm used to convert grayscale/raw images into color images. Histogram manipulation helps in adjusting contrast of grayscale using its histogram of pixel intensities. Here I have implemented two different types of Image demosiacing as well as Histogram Manipulation methods.
+
+Image Denoising is the process of removing noise from image. It is an important preprocessing step for further image analysis. Different types of noise that can corrupt image are Gaussian noise, uniform noise, impulse noise, etc. To deal with each of them we have different filters. In this project, I have implemented Linear filter, Bilateral filter, non-local mean (NLM) filter etc. on grayscale as well as color images and observe the performance with each of them.
+
 ## Project:
 
 For Each Question, Parameters to be passed : 
