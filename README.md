@@ -5,7 +5,7 @@ Image demosaicing is an algorithm used to convert grayscale/raw images into colo
 
 Two Histogram Manipulation methods:
 1. Bucket Filling Method
-2. Cumulative Frequency Distribution Method
+2. Cumulative Frequency Distribution Transfer Method
 
 Image Denoising is the process of removing noise from image. It is an important preprocessing step for further image analysis. Different types of noise that can corrupt image are Gaussian noise, uniform noise, impulse noise, etc. To deal with each of them we have different filters. In this project, I have implemented the following filters on grayscale as well as color images and observe the performance with each of them:
 
