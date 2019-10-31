@@ -2,7 +2,8 @@
 Image demosaicing is an algorithm used to convert grayscale/raw images into color images. Histogram manipulation helps in adjusting contrast of grayscale using its histogram of pixel intensities. Here I have implemented two different types of Image demosaicing:
 1. Bilinear Demosaicing
 2. MHC Demosaicing
-as well as two Histogram Manipulation methods:
+
+Two Histogram Manipulation methods:
 1. Bucket Filling Method
 2. Cumulative Frequency Distribution Method
 
